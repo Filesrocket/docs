@@ -27,6 +27,14 @@ export default {
           { text: "Examples", link: '/overview/examples' },
           { text: "Congratulations", link: '/overview/congratulations' }
         ]
+      },
+      {
+        text: 'Services',
+        items: [
+          { text: 'Local', link: '/services/local' },
+          { text: 'Cloudinary', link: '/services/cloudinary' },
+          { text: 'Amazon S3', link: '/services/amazon-s3' }
+        ]
       }
     ]
   }
