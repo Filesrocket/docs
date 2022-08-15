@@ -4,10 +4,10 @@ export default {
     logo: "/logo.png",
     nav: [
       { text: 'Guide', link: '/introduction/what-is-filesrocket' },
-      { text: 'Changelog', link: 'https://github.com/...' }
+      { text: 'Changelog', link: 'https://github.com/Filesrocket/filesrocket/blob/master/CHANGELOG.md' }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/filesrocket/filesrocket' }
+      { icon: 'github', link: 'https://github.com/filesrocket' }
     ],
     sidebar: [
       {
