@@ -1,4 +1,7 @@
-export default {
+import { defineConfigWithTheme } from "vitepress";
+
+export default defineConfigWithTheme({
+  title: "Filesrocket",
   themeConfig: {
     siteTitle: 'Filesrocket',
     logo: "/logo.png",
@@ -44,4 +47,4 @@ export default {
       }
     ]
   }
-}
+});
