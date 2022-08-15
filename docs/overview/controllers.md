@@ -114,7 +114,9 @@ const files = await controller.create(req, {
 
 :::warning
 That validations will only be available in the **Controller**. In case you want to use the service directly, it will be your responsibility to add the validations.
+:::
 
+:::info
 All properties except the `extnames` belongs to [Busboy](https://github.com/mscdex/busboy#readme), so we recommend you visit the documentation.
 :::
 
