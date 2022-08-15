@@ -6,11 +6,11 @@ Services are the heart of Filesrocket. In this chapter we will dive more into se
 
 Currently there are 3 services, but this is only the tip of the iceberg, later we will incorporate many more with your help.
 
-| Method | Description |
+| Package | Description |
 | ------ | ----------- |
 | `@filesrocket/local` | Manage your files on your own server. |
-| `@filesrocket/cloudinary` | Manage your files with [Cloudinary](https://cloudinary.com/). |
-| `@filesrocket/amazons3` | Manage your files with [Amazon S3](https://aws.amazon.com/s3). |
+| `@filesrocket/cloudinary` | Manage your files with [Cloudinary](/services/cloudinary). |
+| `@filesrocket/amazons3` | Manage your files with [Amazon S3](/services/amazon-s3). |
 
 ## 🔨 Creating my First Service
 
@@ -99,7 +99,7 @@ const service = filesrocket.service("my-service");
 When you interact directly with the service, you have to parse the entire request, generate unique filenames.
 :::
 
-### Use via Controller
+## Use via Controller
 
 ```ts
 const controller = filesrocket.controller("my-service");

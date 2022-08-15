@@ -23,7 +23,7 @@ filesrocket.register("three", new TwoService({...}))
 
 ## Recovering service
 
-To obtain a service, you do it in the following way. For more information about Services.
+To obtain a service, you do it in the following way. For more information about [Services](/overview/services).
 
 ```ts
 const service = filesrocket.service("service-name")
@@ -38,7 +38,7 @@ filesrocket.services
 
 ## Recovering controller
 
-To obtain a controller, you do it in the following way. For more information about Controller
+To obtain a controller, you do it in the following way. For more information about [Controller](/overview/controllers)
 
 ```ts
 const controller = filesrocket.controller("service-name")

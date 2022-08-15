@@ -4,7 +4,6 @@ export default {
     logo: "/logo.png",
     nav: [
       { text: 'Guide', link: '/introduction/what-is-filesrocket' },
-      { text: 'Configs', link: '/configs' },
       { text: 'Changelog', link: 'https://github.com/...' }
     ],
     socialLinks: [
