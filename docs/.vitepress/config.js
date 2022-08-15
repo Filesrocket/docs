@@ -17,6 +17,12 @@ export default {
           { text: 'What is Filesrocket?', link: '/introduction/what-is-filesrocket' },
           { text: 'Getting Started', link: '/introduction/getting-started' }
         ]
+      },
+      {
+        text: 'Overview',
+        items: [
+          { text: 'Filesrocket', link: '/overview/filesrocket' }
+        ]
       }
     ]
   }
