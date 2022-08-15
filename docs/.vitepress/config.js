@@ -23,7 +23,8 @@ export default {
         items: [
           { text: 'Filesrocket', link: '/overview/filesrocket' },
           { text: 'Controllers', link: '/overview/controllers' },
-          { text: "Services", link: '/overview/services' }
+          { text: "Services", link: '/overview/services' },
+          { text: "Examples", link: '/overview/examples' }
         ]
       }
     ]
