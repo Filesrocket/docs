@@ -16,20 +16,7 @@ Currently there are 3 services, but this is only the tip of the iceberg, later w
 
 The official services may not meet your needs, but don't worry, Filesrocket is thinking for you to create your own services. So let's get to it. But before, it is necessary to take into account some considerations.
 
-When you `upload`, `list` or `delete` a file, you will always get an entity with the following properties regardless of the service you are using.
-
-```json
-{
-  "id": "http://domain.com/image.png",
-  "name": "image.jpg",
-  "ext": ".jpg",
-  "url": "http://domain.com/image.png",
-  "size": 12345,
-  "dir": "",
-  "createdAt": "2022-03-08T20:09:07.958Z",
-  "updatedAt": "2022-03-08T20:09:07.958Z"
-}
-```
+When you `upload`, `list` or `delete` a file, you will always get an entity with the following properties regardless of the service you are using. Visit [Schema](/extras/schema.md).
 
 Of course they open additional properties depending on the service, but these will be present at all times to avoid consistency problems or unexpected results.
 

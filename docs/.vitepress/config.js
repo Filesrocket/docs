@@ -34,6 +34,12 @@ export default {
           { text: 'Cloudinary', link: '/services/cloudinary' },
           { text: 'Amazon S3', link: '/services/amazon-s3' }
         ]
+      },
+      {
+        text: 'Extra topics',
+        items: [
+          { text: 'Schema', link: '/extras/schema' }
+        ]
       }
     ]
   }
