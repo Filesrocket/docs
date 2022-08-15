@@ -18,6 +18,18 @@ Filesrocket provides a system that allows developers with a single package to ma
 
 ### Multer
 
+[Multer](https://github.com/expressjs/multer#readme) is possibly the most used package for uploading static files, it is easy to configure and intuitive. However, you will have to form the urls of your files, paginate your results, etc. Also, if you want to save them to a cloud storage service like [Amazon S3](https://aws.amazon.com/s3), you'll need to do your own configuration, which **Filesrocket** does all for you ❤️
+
 ### Busboy
 
+[Busboy](https://github.com/mscdex/busboy#readme) is another alternative, which offers better performance because it adds a very thin layer for interpreting `multipart/form-data` requests. Unlike multer, you should also add the logic to store files, since busboy only interprets the requests, thus making it more complex.
+
+By the way, **Multer** and **Filesrocket** use **Busboy** from behind.
+
 ### Formidable
+
+[Formidable](https://github.com/node-formidable/formidable#readme), it is also an excellent option, since it allows you to easily save files, add validations, etc. But it has similar characteristics as the previous ones.
+
+## Express-fileupload
+
+[Express-fileupload](https://github.com/richardgirges/express-fileupload#readme) It is also a good option as it offers the similar features as the previous packages.
