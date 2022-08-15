@@ -6,6 +6,10 @@ Filesrocket is a package built entirely on Typescript that allows you to manage 
 
 Filesrocket provides a system that allows developers with a single package to manage the storage services in the cloud that they want, be it [Cloudinary](https://cloudinary.com/), [Amazon S3](https://aws.amazon.com/s3), without having to go through tedious configurations to consume the API's or SDK that these companies provide.
 
+## 💡 Motivation
+
+The main reason for **Filesrocket** is to be a package that allows you to manage your files regardless of the service you are using. Many times when we develop applications it is necessary to upload files, such as a client's photograph, the cover of a book, etc. And all this leads to setting up an entire infrastructure for each service we use. With **Filesrocket** you forget about all those problems, since it has all the solutions for each provider. In this way we greatly speed up development when we need to handle files and offer a uniform solution for each service.
+
 ## 🌈 Features
 
 - 🔭 Manage your files with multiple cloud storage services (Local, [Cloudinary](/services/cloudinary), [Amazon S3](/services/amazon-s3)
