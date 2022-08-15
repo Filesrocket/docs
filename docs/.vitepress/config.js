@@ -38,7 +38,8 @@ export default {
       {
         text: 'Extra topics',
         items: [
-          { text: 'Schema', link: '/extras/schema' }
+          { text: 'Schema', link: '/extras/schema' },
+          { text: 'Pagination', link: '/extras/pagination' }
         ]
       }
     ]
