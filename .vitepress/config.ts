@@ -6,9 +6,12 @@ export default defineConfigWithTheme({
   description: "Manage your files with any Cloud Storage Service",
   srcDir: "docs",
   outDir: "dist",
+  head: [
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/icon.png"}]
+  ],
   themeConfig: {
     siteTitle: 'Filesrocket',
-    logo: "/logo.png",
+    logo: "/icon.png",
     nav: [
       { text: 'Guide', link: '/introduction/what-is-filesrocket' },
       { text: 'Changelog', link: 'https://github.com/Filesrocket/filesrocket/blob/master/CHANGELOG.md' }
