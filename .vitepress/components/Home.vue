@@ -22,10 +22,81 @@
         </p>
       </div>
     </section>
+
+    <section class="features">
+      <div class="feature-items">
+        <div class="feature-item">
+          <article>
+              <div class="feature-item-header">
+                <div class="feature-item-icon">🚀</div>
+              </div>
+              <div class="feature-item-body">
+                <h4 class="feature-item-title">Support for multiple services</h4>
+                <p class="feature-item-subtitle">Manage your files with various cloud storage services like Amazon S3, Cloudinary...</p>
+              </div>
+          </article>
+        </div>
+        <div class="feature-item">
+          <article>
+            <div class="feature-item-header">
+              <div class="feature-item-icon">⚡</div>
+            </div>
+            <div class="feature-item-body">
+              <h4 class="feature-item-title">Easy to configure and integrate</h4>
+              <p class="feature-item-subtitle">Use the services you want in a fast, simple and intuitive way.</p>
+            </div>
+          </article>
+        </div>
+        <div class="feature-item">
+          <article>
+            <div class="feature-item-header">
+              <div class="feature-item-icon">🔒</div>
+            </div>
+            <div class="feature-item-body">
+              <h4 class="feature-item-title">Validations</h4>
+              <p class="feature-item-subtitle">Filesrocket allows you to validate your files, such as extensions, size and more...</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <style scoped>
+.feature-items {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.feature-item {
+  padding: 10px;
+}
+.feature-item article {
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--vp-c-bg-soft);
+}
+.feature-item-icon {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--vp-c-bg);
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.feature-item-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.feature-item-subtitle {
+  font-size: 14px;
+  color: rgb(195, 195, 195);
+}
 .banner {
   width: 100%;
   height: 80vh;
