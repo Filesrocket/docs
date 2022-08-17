@@ -64,39 +64,6 @@
 </template>
 
 <style scoped>
-.feature-items {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-}
-.feature-item {
-  padding: 10px;
-}
-.feature-item article {
-  padding: 20px;
-  border-radius: 20px;
-  background: var(--vp-c-bg-soft);
-}
-.feature-item-icon {
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--vp-c-bg);
-  border-radius: 10px;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-.feature-item-title {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.feature-item-subtitle {
-  font-size: 14px;
-  color: rgb(195, 195, 195);
-}
 .banner {
   width: 100%;
   height: 80vh;
@@ -126,12 +93,12 @@
   margin: auto;
 }
 .text-gradient-red {
-  background: #FF416C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FF416C;
+  background: -webkit-linear-gradient(to left, #FF4B2B, #FF416C);
+  background: linear-gradient(to left, #FF4B2B, #FF416C);
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .banner-picture {
   position: absolute;
@@ -148,6 +115,7 @@
   bottom: -100px;
   animation: float 8s ease-in-out infinite;
 }
+
 @keyframes float {
 	0% {
 		transform: translatey(0px);
@@ -186,6 +154,50 @@
   }
   .banner-picture {
     display: block;
+  }
+}
+
+/** Features */
+.features {
+  margin-top: 50px;
+}
+.feature-items {
+  padding: 20px;
+  display: block;
+}
+.feature-item {
+  padding: 10px;
+}
+.feature-item article {
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--vp-c-bg-soft);
+}
+.feature-item-icon {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--vp-c-bg);
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.feature-item-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.feature-item-subtitle {
+  font-size: 14px;
+  color: rgb(195, 195, 195);
+}
+@media (min-width: 768px) {
+  .feature-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 </style>
