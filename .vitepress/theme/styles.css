@@ -1,0 +1,7 @@
+/** Add your app global styles */
+
+:root {
+  --vp-c-brand: #ff464b;
+  --vp-c-brand-light: #ff6065;
+  --vp-c-brand-dark: #ff4169;
+}
