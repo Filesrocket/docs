@@ -52,6 +52,10 @@ export default defineConfigWithTheme({
           { text: 'Pagination', link: '/extras/pagination' }
         ]
       }
-    ]
+    ],
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: `Copyright © ${new Date().getFullYear()} Ivan Zaldivar`
+    }
   }
 });
