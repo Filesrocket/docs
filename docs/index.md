@@ -4,7 +4,7 @@ title: Filesrocket - Manage your files with any Cloud Storage Service
 ---
 
 <script setup>
-import HomeComponent from './components/Home.vue';
+import HomeComponent from "../.vitepress/components/Home.vue";
 </script>
 
 <HomeComponent />

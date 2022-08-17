@@ -1,7 +1,11 @@
 import { defineConfigWithTheme } from "vitepress";
 
 export default defineConfigWithTheme({
+  lang: "en-US",
   title: "Filesrocket",
+  description: "Manage your files with any Cloud Storage Service",
+  srcDir: "docs",
+  outDir: "dist",
   themeConfig: {
     siteTitle: 'Filesrocket',
     logo: "/logo.png",

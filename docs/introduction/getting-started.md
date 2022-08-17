@@ -117,4 +117,4 @@ Once the previous steps have been carried out, it is time to run our app.
 ts-node src/index.ts
 ```
 
-With these simple steps we can now upload, list and delete files locally quickly and easily. To list the files visit the following link: http://localhost:3030/files
+With these simple steps we can now upload, list and delete files locally quickly and easily.
