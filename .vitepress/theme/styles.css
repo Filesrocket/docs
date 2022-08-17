@@ -4,4 +4,15 @@
   --vp-c-brand: #ff464b;
   --vp-c-brand-light: #ff6065;
   --vp-c-brand-dark: #ff4169;
+
+  --vp-c-text-light-1: rgb(21, 21, 21);
+}
+
+.VPNavBarTitle .VPImage {
+  width: 30px;
+  height: 30px;
+}
+
+.VPNavBarTitle .title {
+  font-size: 18px;
 }
